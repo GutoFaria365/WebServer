@@ -65,6 +65,8 @@ public class WebServer {
 
         } else if (directory.equals("/teste")) {
             requestOutput.println("GET REKT");
+        } else {
+            requestOutput.println("HTTP/1.1 404 Not Found");
         }
     }
 //    public static String notFound(String fileName, long length) {
